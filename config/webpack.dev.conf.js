@@ -5,10 +5,15 @@ const webpack = require('webpack');
 const opn = require('opn') //打开浏览器
 const eslintFormatter = require('react-dev-utils/eslintFormatter');
 
+
 module.exports = {
     entry: {
-        index: './app/index.js',
+        index: [
+            'babel-polyfill',
+            'react-hot-loader/patch',
+            path.join(__dirname,'../app/index.js')],
         vendor: Object.keys(json.dependencies),
+    
     },
     resolve: {
         extensions: ['.js', '.json', '.jsx', '.css', '.pcss', '.less']
@@ -55,7 +60,7 @@ module.exports = {
             },
             {
                 test: /\.(js|jsx)$/,
-                use: ['cache-loader', 'babel-loader'],
+                use: ['cache-loader', 'react-hot-loader/webpack','babel-loader'],
                 include: [
                     path.resolve(__dirname, '../app'),
                 ],

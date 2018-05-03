@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'ptp' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 verbose run-script [ 'preptp', 'ptp', 'postptp' ]
+5 info lifecycle react1@1.0.0~preptp: react1@1.0.0
+6 silly lifecycle react1@1.0.0~preptp: no script for preptp, continuing
+7 info lifecycle react1@1.0.0~ptp: react1@1.0.0
+8 verbose lifecycle react1@1.0.0~ptp: unsafe-perm in lifecycle true
+9 verbose lifecycle react1@1.0.0~ptp: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Tmac-1\Desktop\移动端练习\spa-cli\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Ruby187\bin;C:\Users\Tmac-1\AppData\Local\Microsoft\WindowsApps;C:\Users\Tmac-1\AppData\Roaming\npm;;D:\Microsoft VS Code\bin
+10 verbose lifecycle react1@1.0.0~ptp: CWD: C:\Users\Tmac-1\Desktop\移动端练习\spa-cli
+11 silly lifecycle react1@1.0.0~ptp: Args: [ '/d /s /c', 'npm run p && gulp buildTime zip test ' ]
+12 silly lifecycle react1@1.0.0~ptp: Returned: code: 1  signal: null
+13 info lifecycle react1@1.0.0~ptp: Failed to exec ptp script
+14 verbose stack Error: react1@1.0.0 ptp: `npm run p && gulp buildTime zip test `
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:920:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+15 verbose pkgid react1@1.0.0
+16 verbose cwd C:\Users\Tmac-1\Desktop\移动端练习\spa-cli
+17 error Windows_NT 10.0.16299
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "ptp"
+19 error node v6.11.3
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error react1@1.0.0 ptp: `npm run p && gulp buildTime zip test `
+22 error Exit status 1
+23 error Failed at the react1@1.0.0 ptp script 'npm run p && gulp buildTime zip test '.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the react1 package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     npm run p && gulp buildTime zip test
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs react1
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls react1
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

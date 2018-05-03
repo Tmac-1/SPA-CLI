@@ -2,7 +2,7 @@
  * @Author: Tmac-1 
  * @Date: 2018-04-23 23:44:19 
  * @Last Modified by: Tmac-1
- * @Last Modified time: 2018-04-24 00:29:37
+ * @Last Modified time: 2018-05-03 17:39:40
  */
 
 import React from 'react';
@@ -25,7 +25,8 @@ class Echart extends React.Component{
             // 绘制图表
             myChart.setOption({
                 title: {
-                    text: 'ECharts 入门示例'
+                    text: '商品销量'
+
                 },
                 tooltip: {},
                 legend:{
@@ -34,7 +35,7 @@ class Echart extends React.Component{
                   orient:'horizontal'     
                 },
                 xAxis: {
-                    data: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
+                    data: ['iPhone6', 'iPhone7', 'iPhone8', 'vivo', 'meat10', 'honor']
                 },
                 yAxis: {},
                 series: [{

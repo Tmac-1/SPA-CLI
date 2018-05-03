@@ -2,11 +2,8 @@
  * @Author: Tmac-1 
  * @Date: 2018-04-05 12:05:06 
  * @Last Modified by: Tmac-1
-<<<<<<< HEAD
  * @Last Modified time: 2018-04-23 19:02:06
-=======
- * @Last Modified time: 2018-04-23 23:55:32
->>>>>>> 40aa32cf2bc17b342f6ef902c62f75dc1b4a0d15
+ * @Last Modified time: 2018-05-03 16:17:58
  */
 
  import React from 'react';

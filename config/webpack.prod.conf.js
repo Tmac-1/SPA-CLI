@@ -100,7 +100,7 @@ let config = {
         filename: 'index.html',
         template: 'index.html',
         inject: true,
-        title: '这是首页',
+        title: 'react-redux长期更新项目',
         minify: {
             removeComments: true,
             collapseWhitespace: true,
