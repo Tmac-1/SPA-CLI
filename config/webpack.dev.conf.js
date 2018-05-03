@@ -8,10 +8,7 @@ const eslintFormatter = require('react-dev-utils/eslintFormatter');
 
 module.exports = {
     entry: {
-        index: [
-            'babel-polyfill',
-            'react-hot-loader/patch',
-            path.join(__dirname,'../app/index.js')],
+        index:'./app/index.js',
         vendor: Object.keys(json.dependencies),
     
     },
