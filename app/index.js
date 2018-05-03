@@ -2,7 +2,7 @@
  * @Author: Tmac-1 
  * @Date: 2018-04-25 15:34:35 
  * @Last Modified by: Tmac-1
- * @Last Modified time: 2018-05-03 17:37:37
+ * @Last Modified time: 2018-05-03 17:42:56
  */
 
 import React from 'react';
@@ -15,7 +15,6 @@ import {Provider} from 'react-redux';
 import store from './store/store';
 
 FastClick.attach(document.body);
-
 
 
         ReactDOM.render(

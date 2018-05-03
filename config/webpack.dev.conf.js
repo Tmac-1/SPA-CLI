@@ -60,7 +60,7 @@ module.exports = {
             },
             {
                 test: /\.(js|jsx)$/,
-                use: ['cache-loader', 'react-hot-loader/webpack','babel-loader'],
+                use: ['cache-loader','babel-loader'],
                 include: [
                     path.resolve(__dirname, '../app'),
                 ],

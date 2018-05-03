@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "set NODE_ENV=development && webpack-dev-server --devtool cheap-module-eval-source-map --inline --progress --colors --profile --hot --config config/webpack.dev.conf.js",
+    "dev": "set NODE_ENV=development && webpack-dev-server --devtool cheap-module-eval-source-map --inline --progress --colors --profile --config config/webpack.dev.conf.js",
     "devNew": "npm run entry && npm run devBuildHtml",
     "p": "SET BABEL_ENV=production && webpack --progress --colors --config config/webpack.prod.conf.js",
     "entry": "node config/entry/entryBuild.js",
