@@ -89,11 +89,28 @@ module.exports = {
                     path.resolve(__dirname, "../node_modules")
                 ],
             },
+            // {
+            //     test: /\.css$/,
+            //     loader: 'style-loader!css-loader'
+            // },
+            // {
+            //     test:/\.less$/,
+            //     loader:'style-loader!css-loader!postcss-loader!less-loader'
+            // },
             {
-                test: /\.(css|pcss|less)$/,
+                test:/\.css$/,
+                loader:'style-loader!css-loader'
+            },
+            {
+                test: /\.(pcss|less)$/,
                 loader: 'style-loader?sourceMap!css-loader?sourceMap!postcss-loader?sourceMap!less-loader?sourceMap',
                 exclude: /node_modules/
             },
+            // {
+            //     test: /\.(css|pcss|less)$/,
+            //     loader: 'style-loader?sourceMap!css-loader?sourceMap!postcss-loader?sourceMap!less-loader?sourceMap',
+            //     exclude: /node_modules/
+            // },
 
             {
                 test: /\.(png|jpg|gif|ttf|eot|woff|woff2|svg|swf)$/,

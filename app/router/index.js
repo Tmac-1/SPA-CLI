@@ -7,7 +7,8 @@ import Helpcenter from '../pages/helpcenter/helpcenter.bundle';
 import Production from '../pages/production/production.bundle';
 import Balance from '../pages/balance/balance.bundle';
 import Echart from '../pages/echart/echart.bundle';
-import {BundleFun} from '../utils/bundle';
+import Login from '../pages/login/login.bundle'
+import Bundle, { BundleFun } from '../utils/bundle';
 
 class RouterConfig extends React.Component{
     render(){
@@ -20,6 +21,7 @@ class RouterConfig extends React.Component{
                     <Route path='/production' component={()=>BundleFun(Production)}/>
                     <Route path='/balance' component={()=>BundleFun(Balance)}/>
                     <Route path='/echart' component={()=>BundleFun(Echart)}/>
+                    <Route path='/login' component={()=>BundleFun(Login)}/>
                 </Switch>
             </HashRouter>
         )

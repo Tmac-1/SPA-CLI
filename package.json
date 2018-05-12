@@ -15,6 +15,7 @@
   "author": "Tmac-1",
   "license": "ISC",
   "dependencies": {
+    "antd": "^3.5.1",
     "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0",
     "echarts": "^4.0.4",

@@ -3,7 +3,7 @@ module.exports ={
         require('precss'),
         require('postcss-cssnext'),
         // require('autoprefixer'),
-        require('postcss-px2rem')({remUnit:75})
+        // require('postcss-px2rem')({remUnit:75})
     ]
 }
 

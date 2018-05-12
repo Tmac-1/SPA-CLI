@@ -7,14 +7,16 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './utils/setRem';
-import './style/base.css';
+// import './utils/setRem';
+// import './style/base.css';
+import 'antd/dist/antd.css'
+// import 'antd';
 import Route from './router/index';
-import FastClick from 'fastclick';
+// import FastClick from 'fastclick';
 import {Provider} from 'react-redux';
 import store from './store/store';
 
-FastClick.attach(document.body);
+// FastClick.attach(document.body);
 
 
         ReactDOM.render(
