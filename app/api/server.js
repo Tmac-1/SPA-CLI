@@ -2,7 +2,7 @@
  * @Author: Tmac-1 
  * @Date: 2018-04-17 23:32:55 
  * @Last Modified by: Tmac-1
- * @Last Modified time: 2018-05-03 13:41:38
+ * @Last Modified time: 2018-05-22 20:32:31
  */
 import axios from 'axios';
 import envconfig from '../envconfig/envconfig';
@@ -30,7 +30,7 @@ export default class Server{
             _option ={
                 method,
                 url,
-                baseURL:envconfig.baseURL,
+                // baseURL:envconfig.baseURL,
                 timeout:30000,
                 params:null,
                 data:null,

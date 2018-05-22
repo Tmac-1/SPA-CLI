@@ -123,7 +123,7 @@ module.exports = {
         // 设置api转发
         devServer:{
             host:"0.0.0.0",
-            port:8080,
+            port:8082,
             hot:true,
             inline:true,
             contentBase:path.resolve(webpackFile.devDirectory), //告诉服务器从哪里提供内容, 打开build文件夹
@@ -132,7 +132,7 @@ module.exports = {
             proxy:[
                 {
                     context:['/nsi-1.0/**','/u/**'],
-                    target:'http://192.168.0.119:8080',
+                    target:'http://data.xinxueshuo.cn',
                     secure:false
                 }
             ],
